@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <meta charset="UTf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+     <link rel="Stylesheet" href="Mystyle.css">
+     <style>
+        body{
+            background-image:linear-gradient(rgba(56, 65, 67, 0.646),rgba(57, 62, 66, 0.491)), url(hback.jpg);
+        }
+        .center text{
+            text-align: center;
+        }
+       .center-text h4 {
+        text-align: center;
+            color:#fff;
+            font-size: 20px;
+            font-weight: 800px;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .center-text h2 {
+        text-align: center;
+            color:#fff;
+            font-size: 20px;
+            font-weight: 2600px;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            line-height: 1.2;
+        }
+        .categories-content{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+            gap:1.5rem;
+            cursor: pointer;
+            margin-top: 2rem;
+            align-items: center;
+        }
+        .box{
+            padding: 25px;
+            border: 1px sloid #e9ecef;
+            border-radius: 20px;
+            box-shadow: -11.729px;
+            transition:all .40s ease;
+        }
+        .box:hover{
+            transform: translateY(-15px);
+        }
+        .btn {
+    display: inline-block;
+    padding: 10px 28px;
+    background: #c5c8d3;
+    border: 2px solid #bfc1c9;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0,0,0,1);
+    font-size: 18px;
+    color: #eaeaea;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+}
+.btn:hover{
+    background: transparent;
+    color: #1743e3;
+}
+
+     </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Sign in.html">Sign in</a></li>
+            <li><a href="Loginpage.html">Login</a></li>
+            </ul>
+        </nav><br>
+        <section class="categories" id="categories">
+            <div class="center-text">
+                <h4>Categories</h4>
+                <h2>Popular Courses</h2>
+            </div>
+            <div class="categories-content">
+                <div class="box">
+                    <a href="technical.html">
+                    <img src="technical.jpg" width="80%" height="80%">
+                    </a>
+                
+                </div>
+                <div class="box">
+                    <a href="non-technical.html">
+                    <img src="non technical.jpeg" width="80%" height="80%">
+                    </a>
+                </div><br>
+                <div class="box">
+                    <a href="programming.html">
+                    <img src="programming.png" width="80%" height="80%">
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="application.html">
+                    <img src="Application-Software.jpg" width="80%" height="80%">
+                     </a>
+                </div><br><br><br>
+                <center>
+                <div class="main-btn">
+                    <a href="#" class="btn">All Categories</a>
+                </div>
+                </center>
+            </div>
+        </section>
+        </body>
+        <footer>
+            <p>&copy;2024 Supraja. All rights reserved.</p>
+        </footer>
+</html>

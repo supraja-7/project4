@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Technical Courses</title>
+        <link rel="Stylesheet" href="Mystyle.css">
+        <style>
+            body{
+                background-image: url(tback.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+        .categories-content{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+            gap:1.5rem;
+            cursor: pointer;
+            margin-top: 2rem;
+            align-items: center;
+        }
+        .box{
+            padding: 15px;
+            border: 1px sloid #e9ecef;
+            border-radius: 50px;
+            box-shadow: -11.729px;
+            transition:all .40s ease;
+        }
+        .box:hover{
+            transform: translateY(-15px);
+        }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Sign in.html">Sign in</a></li>
+            <li><a href="Loginpage.html">Login</a></li>
+            </ul>
+        </nav>
+        <div class="categories-content">
+        <div class="box">
+        <a href="cyber.html">
+        <img src="cybersecurity.png" width="70%" height="70%">
+        </a>
+        <h2>CYBER SECURITY</h2>
+        </div>
+        <div class="box">
+            <a href="cloud.html">
+        <img src="cloudcomputing.jpg" width="70%" height="70%">
+        </a>
+        <h2>CLOUD COMPUTING</h2>
+        </div>
+        <div class="box">
+            <a href="ml.html">
+        <img src="ml.jpeg" width="70%" height="70%">
+        </a>
+        <h2>MACHINE LEARNING</h2>
+        </div>
+        <div class="box">
+            <a href="web.html">
+        <img src="web development.jpg" width="70%" height="70%">
+        </a>
+        <h2>WEB DEVELOPMENT</h2>
+        </div>
+        <div class="box">
+            <a href="digital.html">
+        <img src="digital marketing.png" width="70%" height="70%">
+        </a>
+        <h2>DIGITAL MARKETING</h2>
+        </div>
+        <div class="box">
+            <a href="big.html">
+        <img src="big data.jpeg" width="70%" height="70%">
+        </a>
+        <h2>BIG DATA</h2>
+        </div>
+        </div>
+    </body>
+</html>
